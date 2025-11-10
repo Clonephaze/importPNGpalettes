@@ -1,0 +1,31 @@
+schema_version = "1.0.0"
+
+id = "import_png_palette"
+name = "Import PNG Palette"
+version = "1.0.0"
+tagline = "Import PNG images as color palettes for Blender."
+maintainer = "Ruuubick"
+type = "add-on"
+
+blender_version_min = "4.0.0"
+license = "GPL-3.0-or-later"
+website = "https://lospec.com/palette-list"
+copyright = [
+    "2025 Ruuubick",
+]
+
+# Optional but recommended metadata
+tags = ["Import-Export", "Color", "Palette", "Utility"]
+blender_version_max = "4.3.0"
+platforms = ["windows", "mac", "linux"]
+maintainer_blender_id = "Ruuubick"
+[permissions]
+network = false
+files = true
+clipboard = false
+camera = false
+microphone = false
+
+[build]
+# The main .py file containing register() and unregister()
+entrypoint = "import_png_palette.py"
