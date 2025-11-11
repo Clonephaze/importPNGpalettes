@@ -2,7 +2,7 @@ schema_version = "1.0.0"
 
 id = "import_png_palette"
 name = "Import PNG Palette"
-version = "1.0.0"
+version = "1.0.1"
 tagline = "Import PNG images as color palettes for Blender"
 maintainer = "Ruuubick"
 type = "add-on"
@@ -17,10 +17,6 @@ copyright = [
 ]
 
 tags = ["Import-Export", "Paint"]
-
-[build]
-entrypoint = "import_png_palette.py"
-thumbnail = "docs/thumbnail.png"
 
 [description]
 summary = "Lets you import color palettes directly from PNG images, perfect for Lospec palettes and other pixel-art color sets"
